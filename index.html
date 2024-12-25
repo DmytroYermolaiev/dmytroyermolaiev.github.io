@@ -1,11 +1,200 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DuoLang: Watch & Learn</title>
+    <link rel="icon" href="images/icon.svg" type="image/svg+xml">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f9f9f9;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 18px;
+        }
+
+        .title-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .title-text {
+            max-width: 400px;
+            text-align: center;
+            margin-right: 20px;
+        }
+
+        .title-text img {
+            width: 100px;
+            height: 100px;
+        }
+
+        .title-text h1 {
+            font-size: 36px;
+            margin: 0;
+            font-family: 'Roboto Condensed', sans-serif;
+            font-weight: 800;
+        }
+
+        .title-text .subtitle {
+            font-size: 21px;
+            color: #797979;
+            font-family: 'Roboto Condensed', sans-serif;
+            font-weight: 800;
+            margin: 0;
+        }
+
+        .title-text p {
+            font-size: 21px;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+
+        .app-screenshot {
+            max-width: 300px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        .store-buttons img {
+            max-width: 200px;
+            margin-top: 20px;
+        }
+
+        .features-section {
+            background-color: #fff;
+            padding-right: 30px;
+            padding-left: 30px;
+            padding-bottom: 10px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: left;
+            display: inline-block;
+            max-width: 800px;
+        }
+
+        .features-section h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 14px;
+            color: #777;
+        }
+
+        .footer a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Media Query for responsiveness */
+        @media (max-width: 768px) {
+            .title-section {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .title-text {
+                margin-right: 0;
+                text-align: center;
+            }
+
+            .app-screenshot {
+                margin-top: 20px;
+                max-width: 80%;
+            }
+
+            .store-buttons img {
+                max-width: 200px;
+                margin-top: 20px;
+            }
+        }
+    </style>
+</head>
 
 <body>
+    <div class="container">
+        <!-- Header Section -->
+        <div class="header">
+            <div class="title-section">
+                <div class="title-text">
+                    <img src="images/logo.svg" alt="DuoLang" draggable="false">
+                    <h1>DuoLang</h1>
+                    <p class="subtitle"><strong>Watch & Learn</strong></p>
+                    <p><strong>Learn English</strong> with <strong>millions of videos</strong> featuring
+                        <strong>translated subtitles</strong>.<br>Supports over <strong>150
+                            languages</strong>.
+                    </p>
+                </div>
+                <img src="images/app.png" alt="DuoLang App Screenshot" class="app-screenshot" draggable="false">
+            </div>
+            <div class="store-buttons">
+                <a href="https://play.google.com/store/apps/details?id=com.DCT.duolang">
+                    <img src="images/playstore.svg" alt="Get it on Google Play" draggable="false">
+                </a>
+            </div>
+        </div>
 
-    <h1>My First Heading</h1>
-    <p>My first paragraph.</p>
+        <!-- Features Section -->
+        <div class="features-section">
+            <h2>🎥 Learn English While Watching Videos You Love!</h2>
+            <p>DuoLang: Watch & Learn helps you improve your English with double-subtitled videos. Whether you're just
+                starting
+                or refining your skills, enjoy engaging content that enhances your listening and speaking abilities.</p>
 
+            <h3>📚 Why Choose DuoLang: Watch & Learn?</h3>
+            <ul>
+                <li>Watch videos with subtitles in two languages simultaneously.</li>
+                <li>Build vocabulary, understand grammar, and improve pronunciation naturally.</li>
+                <li>Explore content in categories you enjoy, such as movies, music, travel, and science.</li>
+            </ul>
+
+            <h3>🌍 Explore a Variety of Topics:</h3>
+            <p>Access videos on subjects like education, cooking, and entertainment. Suitable for learners at any level.
+            </p>
+
+            <h3>🎯 App Features:</h3>
+            <ul>
+                <li>Double subtitles to compare languages as you watch.</li>
+                <li>Replay and pause features to catch every word.</li>
+                <li>Search videos by topic or interest.</li>
+                <li>Adjust language preferences for a tailored experience.</li>
+            </ul>
+
+            <p><strong>🚀 Transform Entertainment into Learning!</strong><br>DuoLang turns your video time into an
+                opportunity
+                for growth.</p>
+        </div>
+
+        <!-- Footer Section -->
+        <div class="footer">
+            <p>&copy; 2024 "DuoLang"</p>
+            <p><a href="https://dmytroyermolaiev.github.io/PrivacyPolicy/duolang-privacy-policy">Privacy Policy</a> | <a
+                    href="https://dmytroyermolaiev.github.io/PrivacyPolicy/duolang-terms-of-use">Terms of Use</a></p>
+            <p>Email: dimatiyer@gmail.com</p>
+        </div>
+    </div>
 </body>
 
 </html>
